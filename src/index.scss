@@ -54,9 +54,14 @@ html{
 
 body {
   margin: 0;
+  height: 100%;
   font-family: 'SpaceGrotesk-Bold';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: getColor('background');
   color: getColor('text-title');
+}
+
+#root {
+  height: 100%;
 }
