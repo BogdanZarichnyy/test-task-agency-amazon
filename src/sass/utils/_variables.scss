@@ -1,0 +1,21 @@
+// Colors
+$colors: (
+  // backgrounds
+  'text-title': #000000,
+  'text-reviews': #9B9A99,
+  'text': #C6C5C6,
+  'background': #FFFFFF,
+  'border': #B6B1B1,
+  'border-button': #D1CFCF,
+
+  // effects
+  'prev-slider': #4B4B4B,
+  'next-slider': #D9D9D9,
+  'hover': #eeeeee,
+  'active': #874441
+);
+
+// Resolution points
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1440px;

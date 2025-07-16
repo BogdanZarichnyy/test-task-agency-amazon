@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'SpaceGrotesk-Regular';
+  src: local('SpaceGrotesk-Regular'),
+    url(../../assets/fonts/SpaceGrotesk-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk-Medium';
+  src: local('SpaceGrotesk-Medium'),
+    url(../../assets/fonts/SpaceGrotesk-Medium.ttf) format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk-Bold';
+  src: local('SpaceGrotesk-Bold'),
+    url(../../assets/fonts/SpaceGrotesk-Bold.ttf) format('truetype');
+  font-weight: bold;
+  /* font-weight: 700; */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spinnaker-Regular';
+  src: local('Spinnaker-Regular'),
+    url(../../assets/fonts/Spinnaker-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Staatliches-Regular';
+  src: local('Staatliches-Regular'),
+    url(../../assets/fonts/Staatliches-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}

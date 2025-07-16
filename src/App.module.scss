@@ -1,0 +1,222 @@
+@import './sass/utils/variables';
+@import './sass/utils/functions';
+@import './sass/utils/mixins';
+
+.App {
+  background: url('./images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrraper {
+  padding: 0 10px;
+
+  @media screen and (min-width: $tablet) {
+    padding: 0 18px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    padding: 0 36px;
+  }
+}
+
+/* ------------------------------------------------------------- */
+
+.title {
+  margin: 0 auto;
+  text-align: center;
+  @include font(25px, 23px);
+  width: 100%;
+  height: 77px;
+
+  @media screen and (min-width: $mobile) {
+    max-width: $mobile;
+  }
+ 
+  @media screen and (min-width: $tablet) {
+    @include font(32px, 31px);
+    min-width: 600px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    @include font(48px, 41px);
+    min-width: 900px;
+  }
+}
+
+/* ------------------------------------------------------------- */
+
+.swiper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 34px;
+}
+
+.slider {
+  margin: 0;
+  width: 200px;
+
+  @media screen and (min-width: $tablet) {
+    width: calc(18px + 279px * 2);
+  }
+  
+  @media screen and (min-width: $desktop) {
+    margin: 0 28px;
+    width: calc(36px + 380px * 3);
+  }
+}
+
+.slide {
+  padding: 15px;
+  background: getColor('background');
+  height: 382px;
+  width: 200px !important;
+  border: 1px solid getColor('border');
+  border-radius: 12px;
+  cursor: pointer;
+
+  @media screen and (min-width: $tablet) {
+    height: 502px;
+    padding: 30px 26px;
+    width: 279px !important;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 380px !important;
+  }
+}
+
+.image {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media screen and (min-width: $tablet) {
+    height: 120px;
+  }
+}
+
+.clientLogo {
+  max-height: 90px;
+  max-width: 170px;
+  object-fit: contain;
+
+  @media screen and (min-width: $desktop) {
+    max-width: 270px;
+  }
+}
+
+.text {
+  position: relative;
+  margin-top: 20px;
+  height: 168px;
+  font-family: 'SpaceGrotesk-Medium';
+  @include font(12px, 25px);
+  color: getColor('text-reviews');
+
+  @media screen and (min-width: $tablet) {
+    height: 150px;
+    @include font(16px, 25px);
+  }
+
+  @media screen and (min-width: $desktop) {
+    height: 176px;
+    @include font(20px, 35px);
+  }
+}
+
+.span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  font-family: 'Staatliches-Regular';
+  @include font(56px, 35px);
+  color: getColor('text');
+  transform: rotate(180deg);
+
+  @media screen and (min-width: $tablet) {
+    @include font(76px, 35px);
+  }
+
+  @media screen and (min-width: $desktop) {
+    @include font(96px, 35px);
+  }
+}
+
+.persone {
+  display: flex;
+  margin-top: 10px;
+
+  @media screen and (min-width: $tablet) {
+    margin-top: 20px;
+  }
+}
+
+.photo {
+ width: 60px;
+ height: 60px;
+}
+
+.info{
+  margin-left: 16px;
+}
+
+.name {
+  @include font(12px, 25px);
+  color: getColor('text-title');
+
+  @media screen and (min-width: $tablet) {
+    @include font(16px, 25px);
+  }
+
+  @media screen and (min-width: $desktop) {
+    @include font(24px, 35px);
+  }
+}
+
+.position {
+  font-family: 'SpaceGrotesk-Medium';
+  @include font(12px, 25px);
+  color: getColor('text-title');
+
+  @media screen and (min-width: $tablet) {
+    @include font(16px, 25px);
+  }
+
+  @media screen and (min-width: $desktop) {
+    @include font(20px, 35px);
+  }
+}
+
+/* ------------------------------------------------------------- */
+
+.paginationPosition {
+  position: relative;
+  margin-top: 39px;
+}
+
+.swiperBulletClass {
+  margin-left: 4px !important;
+  margin-right: 4px !important;
+  width: 10px;
+  height: 10px;
+  background: getColor('next-slider');
+  opacity: 1;
+
+  @media screen and (min-width: $tablet) {
+    width: 12px;
+    height: 12px;
+    margin-left: 7px !important;
+    margin-right: 7px !important;
+  }
+}
+
+.swiperBulletActiveClass {
+  background: getColor('prev-slider');
+  opacity: 1;
+}

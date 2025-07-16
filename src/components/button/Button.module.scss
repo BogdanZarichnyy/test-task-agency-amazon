@@ -1,0 +1,40 @@
+@import '../../sass/utils/variables';
+@import '../../sass/utils/functions';
+@import '../../sass/utils/mixins';
+
+.button {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border: 1px solid getColor('border-button');
+  border-radius: 50%;
+  background: getColor('background');
+  font-family: 'Spinnaker-Regular';
+  @include font(28px, 38px);
+  user-select: none;
+
+  @media screen and (min-width: $tablet) {
+    @include font(48px, 38px);
+    width: 68px;
+    height: 68px;
+  }
+
+  &:hover:not([disabled]),
+  &:focus:not([disabled]) {
+    box-shadow:
+      2px 2px 2px getColor('text-title'),
+      -2px 2px 2px getColor('text-title'),
+      2px -2px 2px getColor('text-title'),
+      -2px -2px 2px getColor('text-title');
+  }
+
+  &:active:not([disabled]) {
+    box-shadow:
+      inset 2px 2px 2px getColor('text-title'),
+      inset -2px 2px 2px getColor('text-title'),
+      inset 2px -2px 2px getColor('text-title'),
+      inset -2px -2px 2px getColor('text-title');
+  }
+}
