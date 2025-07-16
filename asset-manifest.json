@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/test-task-agency-amazon/static/css/main.20f9fe71.css",
+    "main.js": "/test-task-agency-amazon/static/js/main.be68995d.js",
+    "static/media/SpaceGrotesk-Medium.ttf": "/test-task-agency-amazon/static/media/SpaceGrotesk-Medium.11c47748414ab8a89db0.ttf",
+    "static/media/SpaceGrotesk-Regular.ttf": "/test-task-agency-amazon/static/media/SpaceGrotesk-Regular.c092257afdb650be08eb.ttf",
+    "static/media/SpaceGrotesk-Bold.ttf": "/test-task-agency-amazon/static/media/SpaceGrotesk-Bold.0f25a4444d02faac4f60.ttf",
+    "static/media/background.jpg": "/test-task-agency-amazon/static/media/background.e0e1a44bcf4f3edce547.jpg",
+    "static/media/Staatliches-Regular.ttf": "/test-task-agency-amazon/static/media/Staatliches-Regular.134482285baed3198bb5.ttf",
+    "static/media/Spinnaker-Regular.ttf": "/test-task-agency-amazon/static/media/Spinnaker-Regular.e5d1a73d7bedebac60d2.ttf",
+    "index.html": "/test-task-agency-amazon/index.html",
+    "main.20f9fe71.css.map": "/test-task-agency-amazon/static/css/main.20f9fe71.css.map",
+    "main.be68995d.js.map": "/test-task-agency-amazon/static/js/main.be68995d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20f9fe71.css",
+    "static/js/main.be68995d.js"
+  ]
+}
